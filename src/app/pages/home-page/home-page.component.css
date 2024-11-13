@@ -1,0 +1,461 @@
+.main_title{
+  padding: 0 24px;
+  margin: 100px auto 20px;
+  max-width: 737px;
+  word-break: break-word;
+  font-size: 41px;
+  font-weight: 700 !important;
+  line-height: 57px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  color: #1F2533;
+}
+
+span{
+  color: #2147CC;
+}
+
+.main_subtitle{
+  padding: 0 24px;
+  margin: 0 auto;
+  max-width: 591px;
+  color: #384A5E;
+  font-size: 18px;
+
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+
+.features_container{
+  margin: 50px auto 36px;
+  backdrop-filter: blur(0.3);
+  background: rgba(33, 71, 204, 0.16);
+  max-width: 1200px;
+  max-width: 1200px;
+  height: 299px;
+  border-radius: 20px;
+  display: flex;
+  gap: 35px;
+  padding: 28px 34px;
+}
+
+.features {
+  transition: all 0.5s ease; /* Includes color transition */
+  border-radius: 20px;
+  padding: 20px 30px 24px;
+  color: #1F2533;
+
+  span {
+    display: block;
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    margin-bottom: 20px;
+    transition: all 0.5s ease; /* Smooth transition for icon change */
+    background-size: cover; /* Ensures icons scale properly */
+  }
+
+  .gear {
+    background: url("../../../assets/svg/gear-inactive.svg") center no-repeat;
+  }
+  .like {
+    background: url("../../../assets/svg/like-inactive.svg") center no-repeat;
+  }
+  .ppl {
+    background: url("../../../assets/svg/ppl-inactive.svg") center no-repeat;
+  }
+
+  h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  h4 {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+}
+
+.features:hover {
+  color: #FFFFFF; /* Text color will now transition smoothly */
+  background: #2147CCE5;
+  box-shadow: 4px 2px 17px 0px #5454540A;
+
+  span {
+    transform: scale(1.1); /* Optional: Adds slight zoom for icons */
+  }
+
+  .gear {
+    background: url("../../../assets/svg/gear-active.svg") center no-repeat;
+  }
+  .like {
+    background: url("../../../assets/svg/like-active.svg") center no-repeat;
+  }
+  .ppl {
+    background: url("../../../assets/svg/ppl-active.svg") center no-repeat;
+  }
+}
+
+
+
+.mid_features_container{
+  max-width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+
+.mid_features{
+  padding: 30px 24px;
+  border-radius: 20px;
+  min-height: 203px;
+
+  h3{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #1F2533;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+  }
+  h4{
+
+    color: #1F2533;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+}
+
+.globe{
+  background: rgba(232, 234, 246, 0.5);
+  span{
+    display: block;
+    width: 34px;
+    height: 34px;
+    background: url("../../../assets/svg/globe.svg") center no-repeat;
+  }
+}
+
+.sim{
+  background:rgba(224, 247, 250, 0.5);
+  span{
+    display: block;
+    width: 34px;
+    height: 34px;
+    background: url("../../../assets/svg/sim.svg") center no-repeat;
+  }
+}
+.phone{
+  background: rgba(227, 242, 253, 0.5);
+  span{
+    display: block;
+    width: 34px;
+    height: 34px;
+    background: url("../../../assets/svg/phone.svg") center no-repeat;
+  }
+}
+
+
+
+
+.block_1{
+  margin-top: 214px;
+}
+
+
+.block_2{
+  background: #FFFFFF;
+  padding: 50px 24px;
+  margin: 0 auto;
+  height: max-content;
+
+
+
+
+}
+
+h5{
+  text-align: center;
+  max-width: 664px;
+  margin: 25px auto 60px;
+  color: #1F2533;
+  font-feature-settings: 'liga' off, 'clig' off;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+h6{
+  color: #1F2533;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.block_3{
+  width: 100%;
+}
+
+.eu_container {
+  position: relative;
+  padding: 48px;
+  margin: 0 auto;
+  max-width: 1200px;;
+  background: #2147CC url("../../../assets/img/eu.png") right no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+  box-shadow: 3px 8px 28px 0px rgba(11, 32, 52, 0.15);
+  height: 460px;
+}
+
+.countries {
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27.2px; /* 170% */
+}
+
+.title_p {
+  margin: 16px 0;
+  color: #FFF;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 53px;
+}
+
+.price_p {
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.desc_p {
+  margin: 43px 0 39px;
+  max-width: 325px;
+  word-break: break-word;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.btn {
+  position: absolute;
+  bottom: 40px;
+  left: 48px;
+  cursor: pointer;
+  width: 234px;
+  height: 57px;
+  line-height: 57px;
+  text-align: center;
+  border-radius: 68px;
+  background: #FFF;
+  color: #4B59EC;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  border: none;
+}
+
+.wh{
+  color: #1F2533;
+}
+
+.us_af_box{
+  margin: 60px auto 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 140px;
+  max-width: 1200px;
+  max-width: 1200px;
+
+
+  .container{
+    position: relative;
+    padding: 48px 48px 40px;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 3px 8px 28px 0px rgba(11, 32, 52, 0.15);
+    height: 372px;
+    width: 50%;
+    border-radius: 30px;
+  }
+
+  .us{
+    background: url("../../../assets/img/us.png") right no-repeat;
+    background-size: cover;
+  }
+
+  .af{
+    background: url("../../../assets/img/af.png") right no-repeat;
+    background-size: cover;
+  }
+}
+
+.reverse_b{
+  margin-top: 175px;
+}
+
+.reverse_b{
+  color: #FFFFFF;
+  background: #2147CC;
+}
+
+
+.def_pos{
+  position: static;
+  margin: 40px auto;
+}
+
+
+.qa_box{
+  padding-top: 50px;
+}
+
+.fax-items{
+  max-width: 1200px;
+  max-width: 1200px;
+  margin: 60px auto 0;
+}
+
+.acc_header{
+  color: #2147CC;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.m-0{
+  color: #1F2533;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+
+@media (max-width: 1024px) {
+
+
+  .acc_header{
+    font-size: 18px;
+  }
+
+  .main_title{
+    font-size: 25px;
+    line-height: 34px;
+  }
+  .desc_p{
+    display: none;
+  }
+  .us_af_box{
+    flex-direction: column;
+    .container{
+      width: calc(100% - 96px) !important;
+    }
+  }
+  .main_subtitle{
+    font-size: 18px;
+  }
+
+  .features_container{
+    padding: 0 24px;
+    height: max-content;
+    background: transparent;
+    flex-direction: column;
+  }
+  .features{
+    color: #FFFFFF;
+    background: #2147CCE5;
+    box-shadow: 4px 2px 17px 0px #5454540A;
+
+    .gear {
+      background: url("../../../assets/svg/gear-active.svg") center no-repeat;
+    }
+    .like {
+      background: url("../../../assets/svg/like-active.svg") center no-repeat;
+    }
+    .ppl {
+      background: url("../../../assets/svg/ppl-active.svg") center no-repeat;
+    }
+  }
+
+  .block_2{
+    padding: 30px 24px;
+  }
+
+  .mid_features_container{
+    flex-direction: column;
+  }
+}
+
+.box_bottom{
+  margin: 200px auto 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 30px;
+  background: url("../../../assets/img/Experience Effortless Connectivity for Your Travels.png") #4B59EC center no-repeat;
+
+  max-width: 1165px;
+  width: 100%;
+  min-height: 467.83px;
+  box-shadow: 3px 8px 28px 0px rgba(11, 32, 52, 0.15);
+
+  h2{
+    text-align: center;
+    max-width: 669px;
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.8px; /* 132% */
+  }
+  h3{
+    max-width: 669px;
+    margin-top: 16px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.2px;
+  }
+}
+

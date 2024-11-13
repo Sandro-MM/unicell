@@ -1,0 +1,119 @@
+<div class="block_1">
+  <h1 class="main_title">
+    <span>{{ "STAY_IN_TOUCH" | translate }}</span>
+    {{ "TEXT_2" | translate }}
+    <span>{{ "TEXT_3" | translate }}</span>
+  </h1>
+
+  <h2 class="main_subtitle">{{ 'MAIN_DESC' | translate }}</h2>
+
+  <div class="features_container">
+    @for (item of head_data; track item.class) {
+      <div class="features">
+        <span [class]="item.class"></span>
+        <h3>
+          {{ item.title | translate }}
+        </h3>
+        <h4>
+          {{ item.desc | translate }}
+        </h4>
+      </div>
+    }
+  </div>
+
+</div>
+<div class="block_2">
+
+  <h6>{{ 'H_WORK' | translate }}</h6>
+  <h5>
+    {{ 'TITLE_2_1' | translate }}
+    <span>
+      {{ 'TITLE_2_2' | translate }}
+    </span>
+  </h5>
+
+  <div class="mid_features_container">
+    @for (item of mid_data; track item.class) {
+      <div [class]="item.class" class="mid_features">
+
+        <h3>
+          <span></span>{{ item.title | translate }}
+        </h3>
+        <h4>
+          {{ item.desc | translate }}
+        </h4>
+      </div>
+    }
+  </div>
+</div>
+<div class="block_3">
+  <h6>{{'POPULAR' | translate}}</h6>
+  <h5>
+    {{ 'TITLE_3_1' | translate }}
+    <span>
+      {{ 'TITLE_3_2' | translate }}
+    </span>
+  </h5>
+  <div class="eu_container">
+      <div class="countries">{{'COUNTRIES_130' | translate}}</div>
+      <div class="title_p">{{'EU' | translate}}</div>
+      <div class="price_p">{{'FROM_PRICE' | translate}}</div>
+      <div class="desc_p">{{'EU_DESC' | translate}}</div>
+      <div class="btn">{{'START' | translate}}</div>
+  </div>
+  <div class="us_af_box">
+    <div class="container us">
+      <div class="countries wh">{{'COUNTRIES_130' | translate}}</div>
+      <div class="title_p wh">{{'US' | translate}}</div>
+      <div class="price_p"><span>{{'FROM_PRICE' | translate}}</span></div>
+      <div class="btn reverse_b">{{'START' | translate}}</div>
+    </div>
+
+    <div class="container af">
+      <div class="countries wh">{{'COUNTRIES_130' | translate}}</div>
+      <div class="title_p wh">{{'US' | translate}}</div>
+      <div class="price_p"><span>{{'FROM_PRICE' | translate}}</span></div>
+      <div class="btn reverse_b">{{'START' | translate}}</div>
+    </div>
+  </div>
+  <h5>
+    {{ 'TITLE_4_1' | translate }}
+    <span>
+      {{ 'TITLE_4_2' | translate }}
+    </span>
+  </h5>
+  <h2 class="main_subtitle">{{'TITLE_4_DESC' | translate}}</h2>
+
+  <div class="btn reverse_b def_pos">{{'START' | translate}}</div>
+
+</div>
+
+<div class="qa_box">
+  <h6>{{'FAX' | translate}}</h6>
+  <h5>
+    <span>
+      {{ 'TITLE_5_1' | translate }}
+    </span>
+    {{ 'TITLE_5_2' | translate }}
+  </h5>
+
+  <div class="fax-items">
+    <p-accordion>
+      @for (fax of faxData; track fax.title) {
+        <p-accordion-panel  [value]="fax.value">
+          <p-accordion-header [style]="{background: 'white'}" ><span class="acc_header">{{ fax.title | translate}}</span></p-accordion-header>
+          <p-accordion-content>
+            <p class="m-0">{{ fax.content  | translate }}</p>
+          </p-accordion-content>
+        </p-accordion-panel>
+      }
+    </p-accordion>
+  </div>
+
+  <div class="box_bottom">
+    <h2>{{'TITLE_6' | translate}}</h2>
+    <h3>{{'TITLE_6_DESC' | translate}}</h3>
+    <div class="btn def_pos">{{'START' | translate}}</div>
+  </div>
+
+</div>

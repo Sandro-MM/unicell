@@ -1,0 +1,51 @@
+.main{
+  margin-top: 120px;
+  width: 100%;
+  padding: 48px 0;
+
+  img{
+    display: block;
+    min-width: 314px;
+    width: 50%;
+    max-width: 623px;
+    margin: 0 auto 40px;
+  }
+
+  h1{
+    display: block;
+    text-align: center;
+    width: max-content;
+    margin: 0 auto;
+    color: rgba(33, 71, 204, 0.87);
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  h2{
+    display: block;
+    max-width: 1150px;
+    margin: 43px auto;
+    color: rgba(31, 37, 51, 0.87);
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .action{
+    margin: 43px auto;
+    border-radius: 68px;
+    background: #2147CC;
+    text-align: center;
+    height: 57px;
+    color: #FFF;
+    font-size: 19.2px;
+    font-style: normal;
+    font-weight: 700;
+    max-width: 187px;
+    width: 100%;
+    line-height: 57px;
+  }
+}

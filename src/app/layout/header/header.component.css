@@ -1,0 +1,93 @@
+.header{
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+  height: 114px;
+  padding: 28px 120px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-shrink: 0;
+  background: #FFFFFF;
+  z-index: 99999;
+}
+
+.logo{
+  width: 127px;
+  height: 22px;
+}
+
+.nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 37px;
+
+  li{
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    color: #292929;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .active{
+    color: #2147CC;
+    font-weight: 700;
+  }
+
+  li:hover{
+    color: #2147CC;
+    font-weight: 500;
+  }
+}
+
+.languages{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 104px;
+  gap: 20px;
+
+  div{
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+
+  .geo{
+    background: url("../../../assets/img/ge.png") center no-repeat;
+    background-size: contain;
+  }
+  .en{
+    background: url("../../../assets/img/en-us.png") center no-repeat;
+    background-size: contain;
+  }
+}
+
+.burger{
+  width: 35px;
+  height: 28px;
+  background: url("../../../assets/img/ant-design_menu-outlined.png") center no-repeat;
+  background-size: contain;
+  display: none;
+
+
+}
+
+@media (max-width: 1024px) {
+  .burger{
+    display: block;
+  }
+  .in_nav{
+    display: none;
+  }
+  .header{
+    padding: 10px 20px;
+    height: 80px;
+  }
+}

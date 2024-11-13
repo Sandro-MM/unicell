@@ -1,0 +1,50 @@
+<footer class="footer">
+
+
+  <div class="nav_box">
+    <div class="f_logo">
+      <img alt="logo" src="assets/img/Unicell%20Logo.png">
+      <h5>
+        {{ "F_T_1" | translate }} <span>{{ "F_T_2" | translate }}</span> {{ "F_T_3" | translate }}
+      </h5>
+    </div>
+
+
+    <div class="listings_f">
+
+      <h4>
+        {{ "COMPANY" | translate }}
+      </h4>
+
+      <span>     {{ "A_S" | translate }}</span>
+
+      <span>     {{ "SP" | translate }}</span>
+
+
+    </div>
+    <div class="listings_f">
+      <h4>
+        {{ "LEGAL" | translate }}
+      </h4>
+        <span [routerLink]="['/privacy-cookie']">{{ "PP" | translate }}</span>
+        <span [routerLink]="['/privacy-cookie']">{{ "CP" | translate }}</span>
+    </div>
+    <div class="listings_f">
+      <h4>
+        {{ "SOCIAL_MEDIA" | translate }}
+      </h4>
+
+      <span>     {{ "FB" | translate }}</span>
+
+      <span>     {{ "INS" | translate }}</span>
+
+      <span>     {{ "LKDN" | translate }}</span>
+
+    </div>
+
+  </div>
+
+  <div class="made">
+    © 2024 Unicell - {{ 'MADE' | translate }} ❤️ © 2024
+  </div>
+</footer>
