@@ -12,6 +12,9 @@ export const routes: Routes = [
   {
     path: 'working',
     loadComponent: () => import('./pages/working/working.component').then(m => m.WorkingComponent),
+  },{
+    path: 'help',
+    loadComponent: () => import('./pages/help-page/help-page.component').then(m => m.HelpPageComponent),
   },
   {
     path: '**',

@@ -71,5 +71,11 @@
   "PRIV_DESC_3": "To improve your experience on our website, UniCell uses cookies. Cookies help us understand how you interact with our site, allowing us to personalize your experience and improve our services. You can manage your cookie settings in your browser at any time. By continuing to use our website, you agree to our use of cookies.",
   "WORKING_TITLE": "Under Maintenance",
   "WORKING_DESC": "The website is currently not fully operational. Updates are in progress, and it will be fully functional soon. You may still continue to the website.",
-  "WORKING_BUTTON": "Continue to Website"
+  "WORKING_BUTTON": "Continue to Website",
+  "CONTACT_US": "CONTACT US",
+  "CONTACT_US_T": "We're here to",
+  "CONTACT_US_T_2": " help",
+  "CONTACT_US_D": " Please fill out your information below, or you can send an email directly to",
+  "CONTACT_US_D_2": " We will contact you shortly!"
+
 }
