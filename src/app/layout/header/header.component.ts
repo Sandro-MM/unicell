@@ -2,7 +2,7 @@ import {Component, inject} from '@angular/core';
 import {TranslatePipe, TranslateService} from '@ngx-translate/core';
 import {SidebarModule} from 'primeng/sidebar';
 import {ButtonModule} from 'primeng/button';
-import {Router, RouterLink} from '@angular/router';
+import {Router, RouterLink, RouterLinkActive} from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -11,7 +11,8 @@ import {Router, RouterLink} from '@angular/router';
     TranslatePipe,
     SidebarModule,
     ButtonModule,
-    RouterLink
+    RouterLink,
+    RouterLinkActive
   ],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'

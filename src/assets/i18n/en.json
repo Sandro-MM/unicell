@@ -76,6 +76,22 @@
   "CONTACT_US_T": "We're here to",
   "CONTACT_US_T_2": " help",
   "CONTACT_US_D": " Please fill out your information below, or you can send an email directly to",
-  "CONTACT_US_D_2": " We will contact you shortly!"
-
+  "CONTACT_US_D_2": " We will contact you shortly!",
+  "LOG_T": "Welcome back",
+  "LOG_DESC": "Please login to continue",
+  "REG_T": "Nice to meet you!",
+  "REG_DESC": "Please register to continue",
+  "OR_T": "Or register with email",
+  "OR_T_2": "Or register with email",
+  "EMAIL": "Email",
+  "PASSWORD": "Password",
+  "REPEAT_PASSWORD": "Repeat Password",
+  "NAME": "Name",
+  "I_HAVE_READ_TERMS": "I have read and accept the Terms of",
+  "I_HAVE_READ_TERMS_2": "Service & Privacy Policy*",
+  "CONTINUE": "Continue",
+  "REMEMBER": "Remember",
+  "D_H_A": "Don’t have an account?",
+  "REG": "Register",
+  "REG_2": "Register"
 }

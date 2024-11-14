@@ -17,6 +17,13 @@ export const routes: Routes = [
     loadComponent: () => import('./pages/help-page/help-page.component').then(m => m.HelpPageComponent),
   },
   {
+    path: 'authorize',
+    loadComponent: () => import('./pages/auth/auth.component').then(m => m.AuthComponent),
+  }, {
+    path: 'register',
+    loadComponent: () => import('./pages/register/register.component').then(m => m.RegisterComponent),
+  },
+  {
     path: '**',
     redirectTo: ''
   }

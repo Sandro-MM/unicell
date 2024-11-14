@@ -5,12 +5,18 @@
 
 
   <ul class="nav in_nav">
-
-    <li [routerLink]="['']" class="active">{{'HOME' | translate}}</li>
-
-    <li>{{'SUPPORT' | translate}}</li>
-    <li [routerLink]="['/privacy-cookie']">{{'ABOUT_US' | translate}}</li>
-    <li>{{'LOGIN' | translate}}</li>
+    <li [routerLink]="['']" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+      {{ 'HOME' | translate }}
+    </li>
+    <li [routerLink]="['/help']" routerLinkActive="active">
+      {{ 'SUPPORT' | translate }}
+    </li>
+    <li [routerLink]="['/privacy-cookie']" routerLinkActive="active">
+      {{ 'ABOUT_US' | translate }}
+    </li>
+    <li [routerLink]="['/authorize']" routerLinkActive="active">
+      {{ 'LOGIN' | translate }}
+    </li>
   </ul>
 
   <p-sidebar [(visible)]="sidebarVisible" position="left">

@@ -98,7 +98,7 @@
   </h5>
 
   <div class="fax-items">
-    <p-accordion>
+    <p-accordion [style]="{fontSize: '24px'}">
       @for (fax of faxData; track fax.title) {
         <p-accordion-panel  [value]="fax.value">
           <p-accordion-header [style]="{background: 'white'}" ><span class="acc_header">{{ fax.title | translate}}</span></p-accordion-header>

@@ -1,0 +1,33 @@
+<div class="block">
+  <div class="container">
+    <div class="gradient_block">
+      <h1>
+        {{'REG_T' | translate}}
+      </h1>
+      <h2>
+        {{'REG_DESC' | translate}}
+      </h2>
+    </div>
+    <div class="login_form_box">
+      <h3>{{"REG_2" | translate}}</h3>
+      <div class="login_w_socials">
+        <div class="fb"> <span></span> Facebook</div>
+        <div class="gg"> <span></span> Google</div>
+      </div>
+      <div class="or_title"><span></span> {{"OR_T_2" | translate}} <span></span></div>
+      <input style="height: 46.5px; font-size: 16px" placeholder="{{ 'NAME' | translate }}" [fluid]="true"  pInputText />
+      <input style="height: 46.5px; font-size: 16px; margin-top: 25px" placeholder="{{ 'EMAIL' | translate }}" [fluid]="true"  pInputText />
+      <input style="height: 46.5px; font-size: 16px; margin-top: 25px" placeholder="{{ 'PASSWORD' | translate }}" [fluid]="true" pInputText />
+      <input style="height: 46.5px; font-size: 16px; margin-top: 25px" placeholder="{{ 'REPEAT_PASSWORD' | translate }}" [fluid]="true" pInputText />
+      <div class="bottom_content">
+        <div class="check">
+          <p-checkbox  value="New York" id="remember" />
+          <label  for="remember" class="reg"> {{'I_HAVE_READ_TERMS' | translate}} <span>{{'I_HAVE_READ_TERMS_2' | translate}}</span> </label>
+        </div>
+      </div>
+      <div class="continue_btn">
+        {{'CONTINUE' | translate}}
+      </div>
+    </div>
+  </div>
+</div>
