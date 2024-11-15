@@ -1,9 +1,10 @@
 .block_1{
   margin-top: 214px;
   display: flex;
+  gap: 28px;
+  padding: 0 24px 50px;
   justify-content: center;
   align-items: center;
-  padding-bottom: 50px;
 }
 
 h3{
@@ -84,4 +85,26 @@ label{
   font-style: normal;
   font-weight: 700;
   line-height:  57px;
+}
+
+.help_img{
+  width: 50%;
+  max-width: 565px;
+  background: url("../../../assets/img/help-img.png") center no-repeat;
+  background-size: contain;
+  height: 900px;
+}
+
+@media (max-width: 1024px) {
+  .help_img{
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .inputs{
+    flex-direction: column;
+    div{
+      width: 100%;
+    }
+  }
 }

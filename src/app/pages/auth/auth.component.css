@@ -5,6 +5,7 @@
 .container{
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 22px;
   border-radius: 60px;
   background: rgba(255, 255, 255, 0.50);
@@ -169,5 +170,17 @@
       background: url("../../../assets/img/gg.png") center no-repeat;
       background-size: contain;
     }
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .gradient_block{
+    display: none;
+  }
+  .bottom_content{
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
   }
 }

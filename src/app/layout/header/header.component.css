@@ -90,4 +90,20 @@
     padding: 10px 20px;
     height: 80px;
   }
+  .none{
+    display: none;
+  }
+}
+
+.start{
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57px;
+  width: 196px;
+  height: 57px;
+  border-radius: 68px;
+  background: #2147CC;
 }

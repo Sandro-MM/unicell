@@ -19,15 +19,18 @@
     </li>
   </ul>
 
+
   <p-sidebar [(visible)]="sidebarVisible" position="left">
     <ng-template pTemplate="headless">
       <ul style="flex-direction: column; padding-top: 120px" class="nav">
 
         <li [routerLink]="['']" class="active">{{'HOME' | translate}}</li>
 
-        <li>{{'SUPPORT' | translate}}</li>
-        <li>{{'ABOUT_US' | translate}}</li>
-        <li>{{'LOGIN' | translate}}</li>
+        <li [routerLink]="['/help']">{{'SUPPORT' | translate}}</li>
+        <li [routerLink]="['/privacy-cookie']">{{'ABOUT_US' | translate}}</li>
+        <li [routerLink]="['/authorize']">{{'LOGIN' | translate}}</li>
+
+        <div [routerLink]="['/register']" class="start">{{'START' | translate}}</div>
       </ul>
     </ng-template>
 
@@ -39,6 +42,8 @@
     <div (click)="setLang('ka')" class="geo"></div>
     <div (click)="setLang('en')" class="en"></div>
   </div>
+
+  <div [routerLink]="['/register']" class="start none">{{'START' | translate}}</div>
 
   <div class="burger" (click)="sidebarVisible = !sidebarVisible"></div>
 </div>
