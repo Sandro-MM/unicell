@@ -1,3 +1,45 @@
 <div class="block_1">
 
+  <div class="info">
+    <h3>{{'CONTACT_US' | translate}}</h3>
+
+    <h1>{{'CONTACT_US_T' | translate}}<span>{{'CONTACT_US_T_2' | translate}}</span></h1>
+
+    <h2>{{'CONTACT_US_D' | translate}}<span>{{'CONTACT_US_D_2' | translate}}</span></h2>
+
+
+    <div class="inputs">
+      <div>
+        <label for="name">{{ "NAME" | translate }}</label>
+        <input placeholder="{{ 'NAME' | translate }}" [fluid]="true" type="text" id="name" pInputText/>
+      </div>
+
+      <div>
+        <label for="email">{{ "EMAIL" | translate }}</label>
+        <input placeholder="{{ 'EMAIL' | translate }}" [fluid]="true" type="text" id="email" pInputText/>
+      </div>
+    </div>
+
+    <div class="inputs">
+      <div>
+        <label for="phone">{{ "PHONE" | translate }}</label>
+        <input placeholder="{{ 'PHONE' | translate }}" [fluid]="true" id="phone" type="text" pInputText/>
+      </div>
+
+      <div>
+        <label  for="country">{{ "COUNTRY" | translate }}</label>
+        <input placeholder="{{ 'COUNTRY' | translate }}" [fluid]="true" id="country" type="text" pInputText/>
+      </div>
+    </div>
+
+    <label style="margin-top: 30px" for="name">{{ "MESSAGE" | translate }}*</label>
+    <textarea placeholder="{{ 'ENTER_MESSAGE' | translate }}" [fluid]="true" style="resize: none" rows="5" cols="30" pTextarea></textarea>
+
+
+      <div class="send"> {{ 'SEND' | translate }}</div>
+  </div>
+  <div>
+
+  </div>
+
 </div>

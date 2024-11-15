@@ -93,5 +93,11 @@
   "REMEMBER": "Remember",
   "D_H_A": "Don’t have an account?",
   "REG": "Register",
-  "REG_2": "Register"
+  "REG_2": "Register",
+  "PHONE": "Phone",
+  "COUNTRY": "Country",
+  "MESSAGE": "Message",
+  "SEND": "Send",
+  "ENTER_MESSAGE": "Enter your message"
+
 }
